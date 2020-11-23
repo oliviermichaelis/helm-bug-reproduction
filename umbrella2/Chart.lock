@@ -1,0 +1,9 @@
+dependencies:
+- name: parent2
+  repository: file://../parent2
+  version: 0.1.0
+- name: parent2
+  repository: file://../parent2
+  version: 0.1.0
+digest: sha256:406be6e8f42d35cd0e190996db6bd2ed6bd73b3d674bf7b50f736389acabd0e8
+generated: "2020-11-23T18:03:56.328628307+01:00"

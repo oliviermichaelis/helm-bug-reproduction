@@ -1,0 +1,16 @@
+apiVersion: v2
+name: umbrella2
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: 1.16.0
+
+dependencies:
+  - name: parent2
+    alias: parent2a
+    version: "0.1.0"
+    repository: "file://../parent2"
+  - name: parent2
+    alias: parent2b
+    version: "0.1.0"
+    repository: "file://../parent2"
